@@ -11,6 +11,7 @@
 .clearfix {
   *zoom: 1;
 }
+.navbar-body { border:0; height:80px; width:100%; padding-top:0; margin-top:-40px}
 
 .clearfix:before,
 .clearfix:after {
@@ -132,6 +133,8 @@
   .navbar-fixed-top .container,
   .navbar-fixed-bottom .container {
     width: 1170px;
+     position: absolute;
+   top: 1px;
   }
   .span12 {
     width: 1170px;
@@ -958,14 +961,14 @@
     position: static;
   }
   .navbar-fixed-top {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
   .navbar-fixed-bottom {
-    margin-top: 20px;
+    margin-top: 0px;
   }
   .navbar-fixed-top .navbar-inner,
   .navbar-fixed-bottom .navbar-inner {
-    padding: 5px;
+    padding: 0px;
   }
   .navbar .container {
     width: auto;
