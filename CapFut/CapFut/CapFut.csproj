@@ -29,6 +29,7 @@
     <Content Include="app.js">
       <DependentUpon>app.ts</DependentUpon>
     </Content>
+    <Content Include="Images\Barc.jpg" />
     <Content Include="Images\Devices.png" />
     <Content Include="Images\CW.jpg" />
     <Content Include="Images\Features.png" />
@@ -37,6 +38,8 @@
     <TypeScriptCompile Include="app.ts" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\ML.jpg" />
+    <Content Include="Images\rbs.jpg" />
     <Content Include="navbar.htm" />
     <Content Include="web.config" />
     <None Include="DevLocal.pubxml" />
